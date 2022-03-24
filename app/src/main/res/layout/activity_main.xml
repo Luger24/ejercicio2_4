@@ -10,26 +10,27 @@
 
     <EditText
         android:id="@+id/descripcion"
-        android:layout_width="375dp"
-        android:layout_height="50dp"
+        android:layout_width="299dp"
+        android:layout_height="42dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="244dp"
         android:background="@color/white"
         android:backgroundTint="@color/white"
         android:ems="10"
-        android:hint="Nombre"
+        android:hint="Descripcion"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgfirma"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.794" />
 
     <Button
         android:id="@+id/salvar"
         android:layout_width="375dp"
         android:layout_height="50dp"
-        android:text="Salvar"
+        android:backgroundTint="#E2D000FF"
+        android:text="Salvar Firma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +42,7 @@
         android:layout_width="375dp"
         android:layout_height="50dp"
         android:layout_marginTop="18dp"
+        android:backgroundTint="#E2D000FF"
         android:text="Ver Firmas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
