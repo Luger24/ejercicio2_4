@@ -1,5 +1,7 @@
 package com.example.ejercicio2_4.db.entidades;
 
+import java.sql.Blob;
+
 public class Signaturess {
     private int id;
     private byte[] firma;
